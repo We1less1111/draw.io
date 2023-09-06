@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-06T01:46:40.014Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="SfpFIDLXWnMG5FEkfDzN" version="21.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-06T06:02:25.381Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="hZMkpGtttSzj6BsM4a0N" version="21.7.1" type="github">
   <diagram name="第 1 页" id="sr_0SVojqCV2WV_hFCie">
     <mxGraphModel dx="2213" dy="-1579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -136,6 +136,46 @@
         </mxCell>
         <mxCell id="bBLHIswbANu0cZDu5vWD-186" value="Bind Cycle" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-30" y="2850" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bBLHIswbANu0cZDu5vWD-187" value="&lt;font color=&quot;#6666ff&quot; style=&quot;font-size: 16px;&quot;&gt;new coroutine&lt;/font&gt;&lt;br&gt;&lt;br&gt;s.processor.Run():&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;所有的listners运行run()、&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;pop()方法，监听事件" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-373" y="3012.5" width="170" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="bBLHIswbANu0cZDu5vWD-188" value="sharedInformer.Run&lt;br&gt;(s)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="3300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bBLHIswbANu0cZDu5vWD-191" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bBLHIswbANu0cZDu5vWD-189" target="bBLHIswbANu0cZDu5vWD-187">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bBLHIswbANu0cZDu5vWD-192" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bBLHIswbANu0cZDu5vWD-189" target="bBLHIswbANu0cZDu5vWD-190">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-550" y="3060" />
+              <mxPoint x="-550" y="3180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bBLHIswbANu0cZDu5vWD-189" value="sharedInformer.Run&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(s)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-710" y="3030" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bBLHIswbANu0cZDu5vWD-194" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bBLHIswbANu0cZDu5vWD-190" target="bBLHIswbANu0cZDu5vWD-193">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bBLHIswbANu0cZDu5vWD-196" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bBLHIswbANu0cZDu5vWD-190" target="bBLHIswbANu0cZDu5vWD-195">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-360" y="3180" />
+              <mxPoint x="-360" y="3280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bBLHIswbANu0cZDu5vWD-190" value="s.controller.Run&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(c)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-523" y="3150" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bBLHIswbANu0cZDu5vWD-193" value="&lt;font color=&quot;#6666ff&quot; style=&quot;font-size: 16px;&quot;&gt;new coroutine&lt;/font&gt;&lt;br&gt;&lt;br&gt;c.reflector.Run():&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;循环运行listAndWatch()&lt;/span&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="3132.5" width="170" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="bBLHIswbANu0cZDu5vWD-195" value="c.&lt;font style=&quot;border-color: var(--border-color); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 13px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;processLoop:&lt;br&gt;对于deltafifo&lt;br&gt;&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="3250" width="150" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
