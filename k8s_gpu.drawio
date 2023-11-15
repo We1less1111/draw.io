@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-15T06:34:02.979Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="xc_zsItkoWjjlXfsCR1f" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-15T06:34:56.156Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="BViyYut8Unf22pf7k85B" version="22.1.0" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1386" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -186,15 +186,6 @@
         </mxCell>
         <mxCell id="IzmlfqED56RzMS5ZcZuz-49" value="ALGorithm" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="IzmlfqED56RzMS5ZcZuz-46">
           <mxGeometry x="13" y="62.31" width="124" height="17.69" as="geometry" />
-        </mxCell>
-        <mxCell id="IzmlfqED56RzMS5ZcZuz-50" value="App&lt;br&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="1900" width="145" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="IzmlfqED56RzMS5ZcZuz-51" value="Public API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="2028" width="150" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IzmlfqED56RzMS5ZcZuz-52" value="User-mode Library" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="2050" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="IzmlfqED56RzMS5ZcZuz-53" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IzmlfqED56RzMS5ZcZuz-39" target="IzmlfqED56RzMS5ZcZuz-44">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
