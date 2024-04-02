@@ -1,9 +1,120 @@
-<mxfile host="app.diagrams.net" modified="2024-04-02T06:20:41.711Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" version="24.0.4" etag="NT4YcOALEoKKuy3aa5Bm" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-02T07:49:56.621Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="_D_RN7STr-0yTJpG4E3X" version="24.0.4" type="github">
   <diagram name="第 1 页" id="x_MS6_Ee2cz8O1x8YKat">
-    <mxGraphModel>
+    <mxGraphModel dx="2505" dy="893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vKevw-SKT2HIocogE-Wy-49" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="270" width="605" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="vKevw-SKT2HIocogE-Wy-1" value="ctr c restore --live --rw &lt;font color=&quot;#ff0000&quot;&gt;--external-ns ipc --external-ns uts --external-ns mnt&lt;/font&gt; redis-r redis-c" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="460" width="610" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vKevw-SKT2HIocogE-Wy-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vKevw-SKT2HIocogE-Wy-2" target="vKevw-SKT2HIocogE-Wy-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vKevw-SKT2HIocogE-Wy-2" value="获取redis-c镜像，&lt;div&gt;及对应index层&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="530" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vKevw-SKT2HIocogE-Wy-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vKevw-SKT2HIocogE-Wy-3" target="vKevw-SKT2HIocogE-Wy-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vKevw-SKT2HIocogE-Wy-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vKevw-SKT2HIocogE-Wy-3" target="vKevw-SKT2HIocogE-Wy-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vKevw-SKT2HIocogE-Wy-3" value="构建containerRequest&lt;div&gt;参数&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="620" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vKevw-SKT2HIocogE-Wy-4" value="初始化空containerRequest参数（cr）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="40" y="290" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vKevw-SKT2HIocogE-Wy-5" value="&lt;div&gt;WithRestoreRuntime：构造cr.Runtime&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;获取index的相应层manifest数据，更新到runtime.option&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="40" y="350" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vKevw-SKT2HIocogE-Wy-6" value="&lt;div&gt;WithRestoreSpec：构造cr.Spec&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;获取index相应层manifest数据，更新到Spec&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vKevw-SKT2HIocogE-Wy-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vKevw-SKT2HIocogE-Wy-7" target="vKevw-SKT2HIocogE-Wy-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vKevw-SKT2HIocogE-Wy-7" value="&lt;div&gt;WithRestoreImage：构造cr.ImageName,snapshotkey,snapshotter&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="40" y="530" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vKevw-SKT2HIocogE-Wy-13" value="docker.io/redis:latest&lt;div&gt;redis-r&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;overlays&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="585" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vKevw-SKT2HIocogE-Wy-14" value="snapshot RPC服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="385" y="529.5" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vKevw-SKT2HIocogE-Wy-16" value="请求提供reids-r&lt;div&gt;对应的快照&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="255" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vKevw-SKT2HIocogE-Wy-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="vKevw-SKT2HIocogE-Wy-18" target="vKevw-SKT2HIocogE-Wy-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vKevw-SKT2HIocogE-Wy-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vKevw-SKT2HIocogE-Wy-18" target="vKevw-SKT2HIocogE-Wy-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vKevw-SKT2HIocogE-Wy-18" value="&lt;div&gt;WithRestoreRW：获取index的rw层，恢复快照的RW层&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="35" y="640" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vKevw-SKT2HIocogE-Wy-19" value="diff RPC服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="385" y="640" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vKevw-SKT2HIocogE-Wy-22" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="325" y="590" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vKevw-SKT2HIocogE-Wy-23" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="325" y="680" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vKevw-SKT2HIocogE-Wy-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vKevw-SKT2HIocogE-Wy-31" target="vKevw-SKT2HIocogE-Wy-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vKevw-SKT2HIocogE-Wy-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vKevw-SKT2HIocogE-Wy-31" target="vKevw-SKT2HIocogE-Wy-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vKevw-SKT2HIocogE-Wy-31" value="创建container" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="710" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vKevw-SKT2HIocogE-Wy-32" value="container RPC服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="710" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vKevw-SKT2HIocogE-Wy-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vKevw-SKT2HIocogE-Wy-34" target="vKevw-SKT2HIocogE-Wy-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vKevw-SKT2HIocogE-Wy-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vKevw-SKT2HIocogE-Wy-34" target="vKevw-SKT2HIocogE-Wy-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vKevw-SKT2HIocogE-Wy-34" value="构建taskRequest&lt;div&gt;参数&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="800" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vKevw-SKT2HIocogE-Wy-35" value="&lt;div&gt;WithTaskCheckpoint：更新checkpoint参数&lt;/div&gt;&lt;div&gt;获取index的相应层的&lt;span style=&quot;background-color: initial;&quot;&gt;checkpoint&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry y="790" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vKevw-SKT2HIocogE-Wy-36" value="task RPC服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="800" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vKevw-SKT2HIocogE-Wy-37" value="create请求" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vKevw-SKT2HIocogE-Wy-38" value="create请求" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-285" y="790" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vKevw-SKT2HIocogE-Wy-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vKevw-SKT2HIocogE-Wy-40" target="vKevw-SKT2HIocogE-Wy-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vKevw-SKT2HIocogE-Wy-40" value="start task" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="890" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vKevw-SKT2HIocogE-Wy-42" value="start请求" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="880" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vKevw-SKT2HIocogE-Wy-43" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vKevw-SKT2HIocogE-Wy-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-70" y="830" as="sourcePoint" />
+            <mxPoint y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
