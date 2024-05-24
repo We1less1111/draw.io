@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-24T02:42:09.185Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="12tGD3MI0D5fLb-rWcjo" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-24T02:52:14.625Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="u4IdqGp6keOCApJQUvKT" version="24.4.0" type="github">
   <diagram name="第 1 页" id="x_MS6_Ee2cz8O1x8YKat">
     <mxGraphModel dx="2626" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1295,23 +1295,41 @@
         <mxCell id="EGrudoqAE8PhNTrjjF3o-183" value="&lt;span style=&quot;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;core-1.img&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ids-1.img&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; pagemap1.img&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;cgroup.img&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;timens-0.img&amp;nbsp; &amp;nbsp; &amp;nbsp;tmpfs-dev-72.tar.gz.img&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;core-14.img&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;descriptors.json&amp;nbsp; 等26个镜像文件&lt;/span&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="-360" y="8380" width="300" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="EGrudoqAE8PhNTrjjF3o-187" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;恢复操作&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-366.25" y="8270" width="306.25" height="60" as="geometry" />
+        <mxCell id="EGrudoqAE8PhNTrjjF3o-187" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;内核态&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-362.5" y="8320" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EGrudoqAE8PhNTrjjF3o-188" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.347;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.33;entryY=0.027;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EGrudoqAE8PhNTrjjF3o-187" target="EGrudoqAE8PhNTrjjF3o-183">
+        <mxCell id="EGrudoqAE8PhNTrjjF3o-192" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;用户态恢复操作&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-362.5" y="8260" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EGrudoqAE8PhNTrjjF3o-193" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-267" y="8340" as="sourcePoint" />
-            <mxPoint x="-267.5" y="8380" as="targetPoint" />
+            <mxPoint x="-240" y="8350" as="sourcePoint" />
+            <mxPoint x="-240" y="8380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EGrudoqAE8PhNTrjjF3o-189" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="EGrudoqAE8PhNTrjjF3o-194" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-219.5" y="8330" as="sourcePoint" />
-            <mxPoint x="-220" y="8380" as="targetPoint" />
+            <mxPoint x="-200" y="8380" as="sourcePoint" />
+            <mxPoint x="-200" y="8350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EGrudoqAE8PhNTrjjF3o-191" value="Open" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-325" y="8338" width="50" height="30" as="geometry" />
+        <mxCell id="EGrudoqAE8PhNTrjjF3o-195" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;I/O操作&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="8350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EGrudoqAE8PhNTrjjF3o-196" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-240" y="8290" as="sourcePoint" />
+            <mxPoint x="-240" y="8320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EGrudoqAE8PhNTrjjF3o-197" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-203.5" y="8320" as="sourcePoint" />
+            <mxPoint x="-203.5" y="8290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EGrudoqAE8PhNTrjjF3o-198" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;系统调用&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-192.5" y="8290" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
