@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-20T12:57:40.282Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="Riu91XrH7Xcw6uqWnRAj" version="24.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-21T06:34:02.408Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="vLAliSpgrbRdPiQsgxXV" version="24.5.5" type="github">
   <diagram name="第 1 页" id="x_MS6_Ee2cz8O1x8YKat">
-    <mxGraphModel dx="1908" dy="380" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2431" dy="660" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3474,8 +3474,8 @@
         </mxCell>
         <mxCell id="phJyBNmQQsNZadGBSoZQ-257" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="896.9999999999999" y="11643" as="sourcePoint" />
-            <mxPoint x="1128" y="11643" as="targetPoint" />
+            <mxPoint x="890.4999999999999" y="11617" as="sourcePoint" />
+            <mxPoint x="1121.5" y="11617" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="phJyBNmQQsNZadGBSoZQ-258" value="张量单元写操作" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -3489,6 +3489,12 @@
         </mxCell>
         <mxCell id="phJyBNmQQsNZadGBSoZQ-266" value="&lt;font style=&quot;font-size: 9px;&quot; color=&quot;#ff6666&quot;&gt;资源竞争域&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1005.37" y="11535" width="86.88" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phJyBNmQQsNZadGBSoZQ-267" value="&lt;font color=&quot;#ff3333&quot;&gt;张量单元是临界资源&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-194.5" y="10931" width="147" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phJyBNmQQsNZadGBSoZQ-268" value="时间" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1123.5" y="11602" width="74" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
