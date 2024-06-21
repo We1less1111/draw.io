@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-21T06:40:11.326Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="KSes3tx23Pk-wWUy2X3t" version="24.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-21T09:29:57.897Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="ZsFFSwqpdBdYPyt9oIYk" version="24.5.5" type="github">
   <diagram name="第 1 页" id="x_MS6_Ee2cz8O1x8YKat">
     <mxGraphModel dx="2431" dy="660" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -2809,7 +2809,7 @@
         <mxCell id="phJyBNmQQsNZadGBSoZQ-15" value="磁盘" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="83" y="12059" width="66" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="phJyBNmQQsNZadGBSoZQ-16" value="内存&lt;div&gt;管理组件&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="phJyBNmQQsNZadGBSoZQ-16" value="张量单元管理组件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="163" y="11954.5" width="32" height="134" as="geometry" />
         </mxCell>
         <mxCell id="phJyBNmQQsNZadGBSoZQ-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
