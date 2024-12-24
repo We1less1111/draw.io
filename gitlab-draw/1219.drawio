@@ -830,6 +830,9 @@
         <mxCell id="jBoAV8WDOrloqXJZEB_Q-1" value="CRIU组件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="217.01" y="15908" width="89" height="43" as="geometry" />
         </mxCell>
+        <mxCell id="jBoAV8WDOrloqXJZEB_Q-2" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;POD&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-102" y="16020" width="108" height="56" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
